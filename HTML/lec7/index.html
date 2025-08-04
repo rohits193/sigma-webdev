@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Form for entrance exam</h1>
+
+    <form action="post">
+        <div>
+            <label for="username"> Enter your username</label>
+            <input type="text" id="username" placeholder="enter your username">
+        </div>
+
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+
+        <div>
+            <input type="checkbox" name="age" id="18+">
+            <label for="18+">above 18</label>
+        </div>
+
+        <div>
+            <label for="comment"> enter your comment here</label>
+            <br>
+            <textarea name="comment" id="comment" rows="5" cols="55"></textarea>
+        </div>
+
+        <DIV>
+            <select name="category" id="category">
+                <option value="general"> General</option>
+                <option value="obc">OBC</option>
+                <option value="sc/st">SC/ST</option>
+            </select>
+        </DIV>
+    </form>
+
+
+</body>
+
+</html>
