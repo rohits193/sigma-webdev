@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        /* element selector */
+        /* div{
+            background-color: beige;
+        } */
+
+        /* class selector */
+        .red {
+            background-color: rgb(122, 10, 32);
+        }
+
+        /* id selector */
+        #green {
+            background-color: green;
+
+        }
+
+        /* child selector */
+        div>p {
+            background-color: aquamarine;
+        }
+
+        /* desendent selector */
+        div p {
+            color: rgb(23, 2, 2);
+            background-color: yellow;
+        }
+
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0cqmax;
+        }
+
+        /* pseudo selectors */
+
+        a:link {
+            color: chartreuse;
+
+        }
+
+        a:visited {
+            color: cadetblue;
+        }
+
+        a:active {
+            background-color: aqua;
+        }
+
+        a:hover {
+            background-color: rgb(255, 111, 0);
+        }
+
+        p:first-child {
+            background-color: coral;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="red">
+        <h1>I am learning css selectors</h1>
+        <p>i am para inside a div</p>
+        <p>i am second para</p>
+
+    </div>
+
+    <div>
+        <h1> i am rohit shrma</h1>
+        <article>
+            <p>i am para inside article which is inside a div</p>
+        </article>
+    </div>
+    <div id="green">
+
+        <h1> i am rohit shrma </h1>
+
+    </div>
+
+    <main>
+        <p>i am first child</p>
+        <p>i a second child</p>
+    </main>
+
+    <a href="https://www.google2.com"> Google </a>
+
+
+</body>
+
+</html>
