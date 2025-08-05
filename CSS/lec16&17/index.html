@@ -61,6 +61,11 @@
         p:first-child {
             background-color: coral;
         }
+
+        /* attribute selector */
+        [data-x="a"] {
+            color: rgb(21, 214, 214);
+        }
     </style>
 
 </head>
@@ -87,7 +92,7 @@
 
     <main>
         <p>i am first child</p>
-        <p>i a second child</p>
+        <p data-x="a">i a second child </p>
     </main>
 
     <a href="https://www.google2.com"> Google </a>
